@@ -1,0 +1,17 @@
+body{
+    margin: 0 auto;
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+html, body{
+    box-sizing: border-box;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 100px 0;
+    background-color: #333;
+}
