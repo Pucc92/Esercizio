@@ -8,6 +8,7 @@ fetch('https://pokeapi.co/api/v2/pokemon/bulbasaur')
     const card1 = document.getElementById('card1');
     const innerCard = `<h2>${data.name}</h2>`
     card1.insertAdjacentHTML("afterbegin", innerCard);
+    console.log(data.moves);
                
 })
 

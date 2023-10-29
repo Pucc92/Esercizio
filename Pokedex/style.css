@@ -1,0 +1,43 @@
+body{
+    margin: 0 auto;
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 100px 0;
+    background-color: #333;
+}
+
+.pokedex{
+    background-color: #ddd;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.col-12 h1{
+    padding: 20px 20px;
+}
+.col-12{
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.info, .lista-nomi{
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.info{
+    background-color: #eaf1fb ;
+}
