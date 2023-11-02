@@ -57,6 +57,7 @@ function cardPokemon() {
     let typeContent = document.getElementById('pokemon-type');
     // Cancello i tipi precedenti
     let type = pokedex[this.id]['types'];
+    console.log(type);
     for (let i = 0; i < type.length; i++) {
         // Aggiungo i tipi del Pokémon in maiuscolo
         typeContent.innerText = type[i]["type"]["name"].toUpperCase();
@@ -65,3 +66,4 @@ function cardPokemon() {
     // Imposto la descrizione del Pokémon nel tag con l'ID 'pokemon-desc'
     document.getElementById('pokemon-desc').innerText = pokedex[this.id]['desc'];
 }
+

@@ -1,0 +1,60 @@
+body{
+    
+    background: url(pokemon.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 100px 0;
+    background-color: #333;
+}
+
+.pokedex{
+    background-color: #ddd;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.col-12 h1{
+    padding: 20px 20px;
+}
+.col-12{
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.info, .lista-nomi{
+    border: 2px solid #000;
+    border-radius: 10px;
+    height: 500px;
+    overflow-y: auto;
+}
+
+.info{
+    background-color: #eaf1fb ;
+}
+
+.nome-pokemon{
+    cursor: pointer;
+}
+
+.nome-pokemon:hover{
+    color:red;
+    transition: all 0.2s cubic-bezier(.215, .61, .355, 1);;
+}
+
